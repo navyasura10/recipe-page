@@ -1,0 +1,95 @@
+body{
+    height: 100%;
+    background-color: rgb(252, 243, 229);
+}
+p{
+    font-family:cursive ;
+}
+.recipecontainer{
+    border-radius:20px;
+    width:600px;
+    height:auto;
+    margin: 100px 30%;
+    background-color:white;
+    padding-bottom: 40px;
+}
+ img{
+    width:520px;
+    padding:40px 40px 0px;
+    height: auto;
+    border-radius:50px;
+ }
+.heading{
+    width:520px;
+    padding:0px 40px 20px;
+}
+.headingname{
+    font-family:'Times New Roman', Times, serif;
+}
+.introduction{
+    /* font-size:14px; */
+}
+.time{
+    width:490px;
+    height: auto;
+    background-color:rgba(255, 192, 203, 0.165);
+    border-radius: 15px;
+    padding: 10px 0px 10px 30px ;
+    margin: 0px 40px;
+}
+.timeheading{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(128, 4, 45)
+}
+.ingredients h2{
+    font-family:'Times New Roman', Times;
+    color: rgb(141, 25, 25);
+    width:520px;
+    padding:0px 40px 0px;
+}
+.ingredientslist{
+    padding: 0px 65px 0px ;
+}
+hr{
+    border: none;
+    height:1px;
+    background-color: rgba(0, 0, 0, 0.27);
+    margin:40px 40px;
+}
+.instructionsheading{
+    font-family:'Times New Roman', Times;
+    color: rgb(141, 25, 25);
+    padding:0px 40px 0px;
+}
+.instructionslist{
+     padding: 0px 65px 0px ;
+}
+.instructionslist li::marker {
+    color:  rgb(141, 25, 25);
+}
+.nutritionheading{
+    font-family:'Times New Roman', Times;
+    color: rgb(141, 25, 25);
+    padding:0px 40px 0px;
+}
+.tabledes{
+    padding:0px 40px 0px;
+}
+.table{
+    width:520px;
+    font-family: cursive;
+    padding: 0px 40px 0px ;
+    border-collapse: collapse;
+    margin: 0px 40px 0px;
+}
+tr:not(:last-child) td{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.27);
+    padding:15px;
+}
+td:nth-child(2){
+    color:brown;
+    padding: 0px 20px;
+}
+tr:last-child td{
+    padding: 15px ;
+}
